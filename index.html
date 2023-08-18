@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/syle.css">
+    <script src="https://kit.fontawesome.com/049645ef7a.js" crossorigin="anonymous"></script>
+    <title>Front Page</title>
+</head>
+<body>
+<nav class="navbar">
+
+    <div class="logo lg-heading">
+        <h5>shapely demo</h5>
+
+</div>
+<div class="bar">
+<ul>
+    <li>home</li>
+    <li>blog</li>
+    <li>portfolio</li>
+     <li>ABOUTTHETEST</li>
+    <li>level<sub>1</sub></li>
+    <li>shop</li>
+    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+</ul>
+</div>
+</nav>
+
+<section class="section1">
+          <div class="main-content">
+            <h1>We Change Everything WordPress</h1><br><br>
+            <P>This is the only WordPress themeyou will ever want to use</P><br><br>
+            <a class="a1" href="">read more</a>
+            <a class="a3" href="">download</a>
+          </div>
+</section>
+
+
+<section class="section2">
+
+        <div class="section2-img">
+
+        </div>
+        <div class="section2-txt">
+          <h2 class="lg-heading2">seo friendly</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt similique alias inventore repellendus cumque mollitia placeat quia aperiam illum fugit nihil adipisci esse soluta ipsum, non repellat dolores explicabo! Obcaecati cupiditate voluptatibus qui exercitationem sapiente totam, similique id ratione consequuntur omnis, labore asperiores iste quos rem aspernatur illum unde veritatis laudantium earum numquam hic? Atque hic consectetur officia est!</p>
+          <a href="" class="a4">read more</a>
+        </div>
+        
+</section>
+
+       <section class="section3">
+
+           <div class="section3-txt">
+            <h3 class="lg-heading2">portfoli0 section</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt similique alias inventore repellendus cumque mollitia placeat quia aperiam illum fugit nihil adipisci esse soluta ipsum, non repellat dolores explicabo! Obcaecati cupiditate voluptatibus qui exercitationem sapiente totam, similique id ratione consequuntur omnis, labore asperiores iste quos rem aspernatur illum unde veritatis laudantium earum numquam hic? Atque hic consectetur officia est!</p>
+            <a href="" class="a5">see it in action</a>
+           </div>
+           <div class="section3-img">
+
+           </div>
+      </section>
+       <section class="section4">
+       <div class="content-4">
+        <h1 class="lg-heading">small parallax section</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat rerum nihil nisi, voluptatem temporibus dolor incidunt, aut, eum ad harum sint distinctio magnam? Cum, quam voluptatibus quos accusantium dolore libero.</p><br><br>
+        <a href="" class="lg-heading">more info</a>
+       </div> 
+       </section>
+
+       <section class="section5">
+        <div class="content-5">
+          <h2 class="lg-heading">limitless options</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eaque ullam quod perspiciatis animi veritatis velit qui facilis totam? Dolorum qui amet itaque voluptatum accusamus natus distinctio doloribus unde pariatur.</p><br><br>
+          <a href="" class="lg-heading a5" >download now</a>
+        </div>
+       </section>
+       <section class="img">
+
+       </section>
+       <section class="latest">
+        <div class="latest-c">
+          <h3 lg-heading>our latest projects</h3>
+          <P>Here are our latest projcts. You 'll love them</P>
+        </div>
+       
+       </section>
+
+       <section class="section6">
+
+      
+          <div class="a z">
+            <div class="contenta">project#1</div>
+          </div>
+          
+      
+          <div class="b z">
+            <div class="contentb">project#2</div>
+          </div>
+          
+
+          <div class="c z">
+            <div class="contentc">project#3</div>
+          </div>
+        
+        <div class="d z">
+          <div class="contentd">project#4</div>
+        </div>
+
+
+        <div class="e z">
+          <div class="contente">project#5</div>
+        </div>
+        
+        
+        <div class="f z">
+          <div class="contentf">project#6</div>
+        </div>
+
+        <div class="g z">
+          <div class="contentg">project#7</div>
+        </div>
+        <div class="h z">
+          <div class="contenth">project#8</div>
+        </div>
+        <div class="i z">
+          <div class="contenti">project#9</div>
+        </div>
+        <div class="j z">
+          <div class="contentj">project#10</div>
+        </div>
+        
+       </section>
+
+       <section class="section7">
+        <div class="content7">
+          <h3>what our customer says</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam repellat veniam est, incidunt beatae, tempore assumenda amet ex, commodi officia temporibus vitae molestias iusto.</p>
+          <img class="my-slides" src="./img/slide1.jpg" alt="">
+          <img class="my-slides" src="./img/slide2.jpg" alt="">
+          <button class="button display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="button display-right" onclick="plusDivs(+1)">&#10095;</button>
+          
+        <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("my-slides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+        </div>
+       </section>
+         <section class="section8">
+
+         </section>
+
+         <section class="section9">
+            <h3> Do you like this awesome Wordpress theme</h3>
+            <a class="lg-heading" href="">download now</a>
+         </section>
+         <section class="section10">
+          <p>Theme by Colorlib powered by Wordpress</p>
+          <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+         </section>
+
+</body>
+</html>
